@@ -1,0 +1,25 @@
+// Image Sitemap
+// File location: /sitemap-images.xml
+
+// Example with EN-CA ABILARIEN Men Shoes: https://www.callitspring.com/ca/en/men/shoes/sneakers/c/211/ABILARIEN/p/11089740
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  // Each <url> tag can contain up to 1,000 <image:image> tags.
+  <url>
+    <loc>https://www.callitspring.com/ca/en/men/shoes/sneakers/c/211/ABILARIEN/p/11089740</loc>
+    <image:image>
+      // If the image is hosted on a subdomain, the subdomain must be verified in Search Console
+      <image:loc>https://media.callitspring.com/product/ABILARIEN/11/ABILARIEN_11_RG_324.JPG</image:loc>
+      <image:title>Product Name - {insert colour}</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://media.callitspring.com/product/ABILARIEN/11/ABILARIEN_11_FR.JPG</image:loc>
+      <image:title>Product Name - {insert colour}</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://media.callitspring.com/product/ABILARIEN/11/ABILARIEN_11_BK_324.JPG</image:loc>
+      <image:title>Product Name - {insert colour}</image:title>
+    </image:image>
+  </url>
+</urlset>

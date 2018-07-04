@@ -1,0 +1,21 @@
+
+		User-agent: *
+				Disallow: /ca/en/cart
+				Disallow: /ca/en/checkout
+				Disallow: /ca/en/my-account
+			Request-rate: 1/10
+			Crawl-delay: 10
+			Visit-time: 0400-0845
+		User-agent: CazoodleBot
+				Disallow: /ca/en/
+		User-agent: MJ12bot
+				Disallow: /ca/en/
+		User-agent: dotbot/1.0
+				Disallow: /ca/en/
+		User-agent: Gigabot
+				Disallow: /ca/en/
+
+
+# Allow search crawlers to discover the sitemap
+
+Sitemap: https://www.callitspring.com:80/sitemapindex
