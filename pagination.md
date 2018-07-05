@@ -6,6 +6,8 @@ Example of target implementation: http://scrollsample.appspot.com/items
 1. Implement following tags in the <head> of every page
 2. Implement replaceState/pushState on list pages to allow for URL update (based on user's scroll)
 3. Add links to the rest of the URLs at the bottom of the page (for browsers with JavaScript disabled). Example: "Previous 1 2 3 4 5 6 7 8 9 10 Next”
+OR
+3. Add a static link to the next page (eg. on page 1, add a link to page 2 - https://www.callitspring.com/ca/en/men/c/200/page-2) instead of having a Javascript event
 
 ## Implementation of pagination
 Example: https://www.callitspring.com/ca/en/men/c/200
