@@ -1,8 +1,9 @@
 # Internal & external links
 
 ## Internal links
-// Add a title attribute on as many internal pages as possible
-// Example with the "Customer Care" footer section
+Example: "Customer Care" footer section
+
+**Add a title attribute on as many internal pages as possible**
 
 ```html
 <ul>
@@ -15,8 +16,10 @@
 ```
 
 ## External links to social & CIS-managed pages
-// Add the following attributes on all CIS-managed pages & websites: title, target blank, rel noopener.
-// Example with CIS Social Media pages
+Example: links to CIS social media
+
+**Add the following attributes on all CIS-managed pages & websites: title, target blank, rel noopener.**
+
 
 ```html
 <ul>

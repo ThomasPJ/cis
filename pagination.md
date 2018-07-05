@@ -1,5 +1,5 @@
 # Pagination
-Pagination recommendation for infinite scroll list pages
+Pagination recommendation for infinite scroll pages.  
 Example of target implementation: http://scrollsample.appspot.com/items
 
 ## Action items
@@ -8,6 +8,7 @@ Example of target implementation: http://scrollsample.appspot.com/items
 3. Add links to the rest of the URLs at the bottom of the page (for browsers with JavaScript disabled). Example: "Previous 1 2 3 4 5 6 7 8 9 10 Next”
 
 ## Implementation of pagination
+Example: https://www.callitspring.com/ca/en/men/c/200
 
 ### Page 1
 One the first page (https://www.callitspring.com/ca/en/men/c/200), add one link to (/page-2)
@@ -31,7 +32,7 @@ For example, on page 2 (https://www.callitspring.com/ca/en/men/c/200/page-2)
 </head>
 ```
 
-### 100th and final page of the Men Landing
+### 100th and final page of the list page
 On the last page of the sequence, add a link to the penultimate page of the sequence (/page-99 here)
 
 ```html
