@@ -1,5 +1,5 @@
 // Image Sitemap
-// File location: /sitemap-images.xml
+// Target file location on prod: /sitemap-images.xml
 
 // Example with EN-CA ABILARIEN Men Shoes: https://www.callitspring.com/ca/en/men/shoes/sneakers/c/211/ABILARIEN/p/11089740
 <?xml version="1.0" encoding="UTF-8"?>

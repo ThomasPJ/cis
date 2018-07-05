@@ -1,5 +1,5 @@
 // Sitemap for country-specific pages (ie. pages that only exist in one country)
-// File location: /sitemap-pages.xml
+// Target file location on prod: /sitemap-pages.xml
 
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">

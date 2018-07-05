@@ -1,5 +1,5 @@
-// HREFLANG - Sitemap Option
-// File location: /sitemap-hreflang.xml
+// "hreflang" - Option B: sitemap
+// Target file location on prod: /sitemap-hreflang.xml
 
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
@@ -7,7 +7,7 @@
   // Example with EN-CA ABILARIEN Men Shoes: https://www.callitspring.com/ca/en/men/shoes/sneakers/c/211/ABILARIEN/p/11089740
   <url>
     <loc>https://www.callitspring.com/ca/en/men/shoes/sneakers/c/211/ABILARIEN/p/11089740</loc>
-    // Always include the loc page (right above) as an alternate
+    // Always include the loc page (right above) as an alternate (below)
      <xhtml:link
        rel="alternate"
        hreflang="en-ca"
@@ -28,7 +28,7 @@
   // Example with EN-CA ABILARIEN Men Shoes: https://www.callitspring.com/ca/fr/CALL-IT-SPRING/hommes/chaussures-pour-homes-50-%24/ABILARIEN/p/11089736
   <url>
     <loc>https://www.callitspring.com/ca/fr/CALL-IT-SPRING/hommes/chaussures-pour-homes-50-%24/ABILARIEN/p/11089736</loc>
-      // Always include the loc page (right above) as an alternate
+      // Always include the loc page (right above) as an alternate (below)
       <xhtml:link
         rel="alternate"
         hreflang="fr-ca"

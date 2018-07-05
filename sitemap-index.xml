@@ -1,5 +1,5 @@
 // Sitemap index for entire domain
-// File location: /sitemap-index.xml
+// Target file location on prod: /sitemap-index.xml
 
 
 <?xml version="1.0" encoding="UTF-8"?>

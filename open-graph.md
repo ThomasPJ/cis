@@ -1,8 +1,10 @@
-// Open Graph Implementation
+# Open Graph
 
-// Homepage, example: https://www.callitspring.com/ca/en
+## Homepage example
+https://www.callitspring.com/ca/en
 
-// add following head prefixes
+```html
+// add the following head prefixes
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
   <meta property="og:site_name" content="Call It Spring Canada">
   <meta property="og:type" content="website">
@@ -30,12 +32,16 @@
   <meta name="twitter:site" content="@callitspring">
   <meta name="twitter:creator" content="@callitspring">
 </head>
+```
 
-// Product page, example: https://www.callitspring.com/ca/en/men/shoes/sneakers/c/211/ABILARIEN/p/11089736
+## Product page example
+https://www.callitspring.com/ca/en/men/shoes/sneakers/c/211/ABILARIEN/p/11089736
 
+```html
 // add following head prefixes
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# product: http://ogp.me/ns/product#">
   <meta property="og:site_name" content="Call It Spring Canada">
+  // insert CIS facebook app ID
   <meta property="fb:app_id" content="{insert CIS facebook app ID}" />
   <meta property="og:type" content="product">
   // Current title
@@ -62,3 +68,4 @@
   <meta name="twitter:site" content="@callitspring">
   <meta name="twitter:creator" content="@callitspring">
 </head>
+```

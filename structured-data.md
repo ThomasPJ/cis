@@ -1,7 +1,9 @@
-// Structured data markup organized by template
+# Structured data markup
 
-// 1
-// EN-CA Homepage, example: https://www.callitspring.com/ca/en
+## EN-CA Homepage
+https://www.callitspring.com/ca/en
+
+```html
 // WebSite/Organization Markup
 <head>
   <script type="application/ld+json">
@@ -38,10 +40,12 @@
   }
   </script>
 </head>
+```
 
+## EN-US Homepage
+https://www.callitspring.com/us/en_US
 
-// 2
-// EN-US Homepage, example: https://www.callitspring.com/us/en_US
+```html
 // WebSite/Organization Markup
 <head>
   <script type="application/ld+json">
@@ -78,12 +82,14 @@
   }
   </script>
 </head>
+```
 
+## Product pages
+https://www.callitspring.com/ca/en/men/boots/chelsea-boots/c/7221/CADOINI/p/11000221
 
-// 3
-// Product pages, EN-CA example: https://www.callitspring.com/ca/en/men/boots/chelsea-boots/c/7221/CADOINI/p/11000221
-// NB: Two script tags for product pages
+**NB: 3 script tags for product pages**
 
+```html
 <head>
   // WebSite/Organization Markup
   <script type="application/ld+json">
@@ -193,7 +199,11 @@
         "@type": "Offer",
         "availability": "http://schema.org/InStock",
         "price": "24.99",
-        "priceCurrency": "CAD"
+        "priceCurrency": "CAD",
+        // Date after which the price will no longer be available (beginning/end of sale)
+        // If this data cannot be produced then I'd recommend removing "price", "priceCurrency", and "priceValidUntil"
+        // Format YYYY-MM-DD
+        "priceValidUntil": "2020-11-05"
       }
     },
     { // Product Variant - Black Synthetic Nubuck
@@ -212,7 +222,11 @@
         "@type": "Offer",
         "availability": "http://schema.org/InStock",
         "price": "24.99",
-        "priceCurrency": "CAD"
+        "priceCurrency": "CAD",
+        // Date after which the price will no longer be available (beginning/end of sale)
+        // If this data cannot be produced then I'd recommend removing "price", "priceCurrency", and "priceValidUntil"
+        // Format YYYY-MM-DD
+        "priceValidUntil": "2020-11-05"
       }
     },
     { // Product Variant - Light Grey Synthetic Nubuck
@@ -231,7 +245,11 @@
         "@type": "Offer",
         "availability": "http://schema.org/InStock",
         "price": "24.99",
-        "priceCurrency": "CAD"
+        "priceCurrency": "CAD",
+        // Date after which the price will no longer be available (beginning/end of sale)
+        // If this data cannot be produced then I'd recommend removing "price", "priceCurrency", and "priceValidUntil"
+        // Format YYYY-MM-DD
+        "priceValidUntil": "2020-11-05"
       }
     },
     { // Product Variant - Khaki Canvas
@@ -250,9 +268,14 @@
         "@type": "Offer",
         "availability": "http://schema.org/InStock",
         "price": "24.99",
-        "priceCurrency": "CAD"
+        "priceCurrency": "CAD",
+        // Date after which the price will no longer be available (beginning/end of sale)
+        // If this data cannot be produced then I'd recommend removing "price", "priceCurrency", and "priceValidUntil"
+        // Format YYYY-MM-DD
+        "priceValidUntil": "2020-11-05"
       }
     }
   ]
   </script>
 </head>
+```
