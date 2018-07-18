@@ -197,13 +197,9 @@ https://www.callitspring.com/ca/en/men/boots/chelsea-boots/c/7221/CADOINI/p/1100
       "name": "CILIBERTI",
       "offers": {
         "@type": "Offer",
-        "availability": "http://schema.org/InStock",
-        "price": "24.99",
-        "priceCurrency": "CAD",
-        // Date after which the price will no longer be available (beginning/end of sale)
-        // If this data cannot be produced then I'd recommend removing "price", "priceCurrency", and "priceValidUntil"
-        // Format YYYY-MM-DD
-        "priceValidUntil": "2020-11-05"
+        "availability": "http://schema.org/InStock", // Display stock status
+        "price": "24.99", // Display original price, not sale price
+        "priceCurrency": "CAD" // Display currency (should be "USD" on US store)
       }
     },
     { // Product Variant - Black Synthetic Nubuck
@@ -220,13 +216,9 @@ https://www.callitspring.com/ca/en/men/boots/chelsea-boots/c/7221/CADOINI/p/1100
       "name": "CILIBERTI",
       "offers": {
         "@type": "Offer",
-        "availability": "http://schema.org/InStock",
-        "price": "24.99",
-        "priceCurrency": "CAD",
-        // Date after which the price will no longer be available (beginning/end of sale)
-        // If this data cannot be produced then I'd recommend removing "price", "priceCurrency", and "priceValidUntil"
-        // Format YYYY-MM-DD
-        "priceValidUntil": "2020-11-05"
+        "availability": "http://schema.org/InStock", // Display stock status
+        "price": "24.99", // Display original price, not sale price
+        "priceCurrency": "CAD" // Display currency (should be "USD" on US store)
       }
     },
     { // Product Variant - Light Grey Synthetic Nubuck
@@ -243,13 +235,9 @@ https://www.callitspring.com/ca/en/men/boots/chelsea-boots/c/7221/CADOINI/p/1100
       "name": "CILIBERTI",
       "offers": {
         "@type": "Offer",
-        "availability": "http://schema.org/InStock",
-        "price": "24.99",
-        "priceCurrency": "CAD",
-        // Date after which the price will no longer be available (beginning/end of sale)
-        // If this data cannot be produced then I'd recommend removing "price", "priceCurrency", and "priceValidUntil"
-        // Format YYYY-MM-DD
-        "priceValidUntil": "2020-11-05"
+        "availability": "http://schema.org/InStock", // Display stock status
+        "price": "24.99", // Display original price, not sale price
+        "priceCurrency": "CAD" // Display currency (should be "USD" on US store)
       }
     },
     { // Product Variant - Khaki Canvas
@@ -266,13 +254,9 @@ https://www.callitspring.com/ca/en/men/boots/chelsea-boots/c/7221/CADOINI/p/1100
       "name": "CILIBERTI",
       "offers": {
         "@type": "Offer",
-        "availability": "http://schema.org/InStock",
-        "price": "24.99",
-        "priceCurrency": "CAD",
-        // Date after which the price will no longer be available (beginning/end of sale)
-        // If this data cannot be produced then I'd recommend removing "price", "priceCurrency", and "priceValidUntil"
-        // Format YYYY-MM-DD
-        "priceValidUntil": "2020-11-05"
+        "availability": "http://schema.org/InStock", // Display stock status
+        "price": "24.99", // Display original price, not sale price
+        "priceCurrency": "CAD" // Display currency (should be "USD" on US store)
       }
     }
   ]
