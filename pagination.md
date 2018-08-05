@@ -13,7 +13,7 @@ OR
 Example: https://www.callitspring.com/ca/en/men/c/200
 
 ### Page 1
-One the first page (https://www.callitspring.com/ca/en/men/c/200), add one link to (/page-2)
+On the first page (https://www.callitspring.com/ca/en/men/c/200), add one link to (/page-2)
 
 ```html
 <head>
