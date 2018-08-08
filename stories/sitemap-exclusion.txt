@@ -1,0 +1,9 @@
+Exclusion list:
+/*/checkout*
+/*/create-account*
+/*?Color*
+/*?Price*
+/*?Size*
+/*?Sub-Category*
+/*?sort=*
+/*/search*

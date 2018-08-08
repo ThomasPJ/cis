@@ -1,0 +1,48 @@
+// Target file location on prod: /sitemap-hreflang.xml
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    // Example with EN-CA ABILARIEN Men Shoes: https://www.callitspring.com/ca/en/men/shoes/sneakers/c/211/ABILARIEN/p/11089740
+    <loc>https://www.callitspring.com/ca/en/men/shoes/sneakers/c/211/ABILARIEN/p/11089740</loc>
+    // Always include the loc page (right above) as an alternate (below)
+     <xhtml:link
+       rel="alternate"
+       hreflang="en-ca"
+       href="https://www.callitspring.com/ca/en/men/shoes/sneakers/c/211/ABILARIEN/p/11089740"
+       />
+     <xhtml:link
+       rel="alternate"
+       hreflang="fr-ca"
+       href="https://www.callitspring.com/ca/fr/CALL-IT-SPRING/hommes/chaussures-pour-homes-50-%24/ABILARIEN/p/11089736"
+       />
+    // If the page exists on CIS US, add the following with the right URL. If there is no US equivalent, don't add the following:
+     <xhtml:link
+       rel="alternate"
+       hreflang="en-us"
+       href="{insert US page URL}"
+       />
+  </url>
+  <url>
+    // Example with EN-CA ABILARIEN Men Shoes: https://www.callitspring.com/ca/fr/CALL-IT-SPRING/hommes/chaussures-pour-homes-50-%24/ABILARIEN/p/11089736
+    <loc>https://www.callitspring.com/ca/fr/CALL-IT-SPRING/hommes/chaussures-pour-homes-50-%24/ABILARIEN/p/11089736</loc>
+      // Always include the loc page (right above) as an alternate (below)
+      <xhtml:link
+        rel="alternate"
+        hreflang="fr-ca"
+        href="https://www.callitspring.com/ca/fr/CALL-IT-SPRING/hommes/chaussures-pour-homes-50-%24/ABILARIEN/p/11089736"
+        />
+     <xhtml:link
+       rel="alternate"
+       hreflang="en-ca"
+       href="https://www.callitspring.com/ca/en/men/shoes/sneakers/c/211/ABILARIEN/p/11089740"
+       />
+    // If the page exists on CIS US, add the following with the right URL. If there is no US equivalent, don't add the following:
+     <xhtml:link
+       rel="alternate"
+       hreflang="en-us"
+       href="{insert US page URL}"
+       />
+  </url>
+</urlset>

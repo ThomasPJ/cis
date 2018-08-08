@@ -1,0 +1,26 @@
+// Example: https://www.callitspring.com/us/en_US/sitemap-pages.xml
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.callitspring.com/us/en_US/example.html</loc>
+  </url>
+</urlset>
+
+// Example: https://www.callitspring.com/ca/fr/sitemap-pages.xml
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.callitspring.com/ca/fr/example.html</loc>
+  </url>
+</urlset>
+
+// Example: https://www.callitspring.com/ca/en/sitemap-pages.xml
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.callitspring.com/ca/en/example.html</loc>
+  </url>
+</urlset>
